@@ -66,8 +66,8 @@ describe("addToCart()", function() {
 });
 
 describe("viewCart()", function() {
-  it("prints 'Your shopping cart is empty.' if the cart is empty", function() {
-    expect(viewCart()).toEqual("Your shopping cart is empty.")
+  it("prints 'How  sad for you today.' if the cart is empty", function() {
+    expect(viewCart()).toEqual("How  sad for you today.")
   });
 
   it("correctly prints a one-item cart", function() {
